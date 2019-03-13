@@ -29,6 +29,7 @@ public class UserController : MonoBehaviour
                 randomGameObject();
                 init = false;
                 resize = true;
+                if (drop) drop = false;
             }
             if (resize)
             {
