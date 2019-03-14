@@ -16,9 +16,10 @@ public class ObjectYeeter : MonoBehaviour
         if (PlayerPrefs.GetInt("inputState") == 3) isYeeting = true;
     }
 
-    void yeet() => this.gameObject.AddComponent<Rigidbody2D>();
+    void yeet() => this.gameObject.AddComponent<Rigidbody>();
     void yolo() {
         PlayerPrefs.SetInt("inputState", 0);
+        PlayerPrefs.SetInt("isCamMoving", 1);
         Destroy(this);
     }
 }

@@ -19,5 +19,12 @@ public class Init : MonoBehaviour
             3 = Dropping
         */ 
         PlayerPrefs.SetInt("inputState", 0);
+
+        /*
+            isCamMoving indicates whether the camera is moving up or standing still
+            0 = no movement
+            1 = movement
+        */
+        PlayerPrefs.SetInt("isCamMoving", 0);
     }
 }

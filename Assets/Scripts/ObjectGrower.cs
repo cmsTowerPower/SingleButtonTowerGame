@@ -7,7 +7,7 @@ public class ObjectGrower : MonoBehaviour
 {
     public float growthFactor = 0.05f;
     public float minSize = 0.5f;
-    public float maxSize = 5.5f;
+    public float maxSize = 2.5f;
     private bool isGrowing = false;
 
     // in this state, the object grows all the time - a button press will stop the growth

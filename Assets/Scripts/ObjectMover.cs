@@ -5,7 +5,7 @@ using UnityEngine;
 // MH - the third button press should stop an ongoing motion
 public class ObjectMover : MonoBehaviour
 {
-    public float movingDistance = 3;
+    public float movingDistance = 2.5f;
     public float movingSpeed = 0.05f;
     private bool isMoving = false;
 
